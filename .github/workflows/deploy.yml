@@ -52,7 +52,7 @@ jobs:
           openshift_server_url: ${{ secrets.OPENSHIFT_SERVER }}
           openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
           insecure_skip_tls_verify: true
-          namespace: teehit101-dev
+          namespace: teehit101
 
       - name: Deploy to OpenShift
         run: |
