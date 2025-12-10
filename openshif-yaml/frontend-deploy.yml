@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: teehit/frontend:v6
+          image: ghcr.io/teehit101/guestbook-frontend:latest
           ports:
             - containerPort: 8080
           env:
@@ -41,4 +41,3 @@ spec:
               port: 8080
             initialDelaySeconds: 10
             periodSeconds: 10
-
